@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-from assistant import handle_user_input, analyze_camera_image
+from assistant import handle_user_input
+
 
 app = Flask(__name__)
 
