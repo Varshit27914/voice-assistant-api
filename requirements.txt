@@ -1,8 +1,5 @@
 flask
 openai
-pyttsx3
-pyaudio
 pvporcupine
-SpeechRecognition
 opencv-python
 requests
