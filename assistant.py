@@ -2,6 +2,13 @@
 from openai import OpenAI
 from your_image_functions import analyze_image, capture_image
 import os
+from your_image_functions import analyze_image, capture_image
+
+def analyze_camera_image():
+    image_path = capture_image()
+    if not image_path:
+        return "Failed to capture image."
+    return analyze_image(image_path)
 
 openai_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=openai_key)
