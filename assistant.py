@@ -15,6 +15,8 @@ client = OpenAI(api_key=openai_key)
 
 def handle_user_input(user_input):
     prompt = (
+        "Your name is Olwik and your an assistant"
+        "your father's name is sathwik and mother's name is a secret"
         "If and only if the user's input is specifically asking to describe what is in front of them, "
         "such as 'what is in front of me?', 'describe the scene around me', 'what do you see?', or similar phrases, "
         "then return exactly '1' and nothing else. "
