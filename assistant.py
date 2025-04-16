@@ -3,7 +3,7 @@ from openai import OpenAI
 from your_image_functions import analyze_image, capture_image
 import os
 
-openai_key = os.getenv("OPENAI_API_KEY")
+openai_key ="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"
 client = OpenAI(api_key=openai_key)
 
 def handle_user_input(user_input):
