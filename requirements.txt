@@ -3,3 +3,4 @@ openai
 pvporcupine
 opencv-python
 requests
+pynput
